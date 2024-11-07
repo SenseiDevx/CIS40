@@ -1,9 +1,9 @@
 """
-File name: lab4_alternative.py
-Author Name: John Doe
-Date of Creation: 2024-10-22
+File name: lab4.py
+Author Name: Omurbek Kurmanbekov
+Date of Creation: 2024-10-24
 History of Modification:
-    - Initial Creation: 2024-10-22
+    - Initial Creation: 2024-10-24
 
 Description:
 This module allows users to select a cake type and size, calculates the required ingredient quantities,
