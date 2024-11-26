@@ -1,9 +1,3 @@
-# **************************************************************************
-# Filename: make_more_cake_partial_sln.py
-# Description: Reads cake orders from a file, calculates ingredients,
-# and writes the ingredient list to another file.
-# **************************************************************************
-
 """
 File name: make_more_cake_partial_sln.py
 Author Name: Omurbek Kurmanbekov
@@ -127,11 +121,95 @@ def process_orders(orders_file, ingredients_file):
         write_ingredients_to_file(ingredients_file, header, ingredients)
 
 
-# **************************************************************************
 # Start of the program
-# **************************************************************************
 if __name__ == "__main__":
     orders_file = "cake_orders.txt"
     ingredients_file = "cake_ingredients_list.txt"
     process_orders(orders_file, ingredients_file)
     print("Ingredients have been calculated and written to cake_ingredients_list.txt.")
+
+
+# Record of execution
+"""
+Ingredient Quantities for Large Chocolate Cake
+Flour: 17.7 Oz
+Sugar: 27.4 Oz
+Unsweetened Cocoa Powder: 6.3 Oz
+Baking Powder: 0.4 Oz
+Baking Soda: 0.7 Oz
+Salt: 0.4 Oz
+Egg: 10.1 Oz
+Buttermilk: 20.2 Oz
+Oil: 9.1 Oz
+Vanilla Extract: 0.7 Oz
+Boiling Water: 19.0 Oz
+--------------------------------------------------
+
+Ingredient Quantities for Regular Red Velvet Cake
+Flour: 14.3 Oz
+Sugar: 11.8 Oz
+Unsweetened Cocoa Powder: 1.5 Oz
+Baking Powder: 0.5 Oz
+Baking Soda: 0.4 Oz
+Salt: 0.3 Oz
+Egg: 5.6 Oz
+Buttermilk: 14.3 Oz
+Oil: 5.1 Oz
+Vanilla Extract: 0.3 Oz
+Boiling Water: 3.5 Oz
+Red Food Coloring: 5.4 Oz
+Distilled Vinegar: 0.3 Oz
+--------------------------------------------------
+
+Ingredient Quantities for Large Lemon Cake
+Butter: 9.5 Oz
+Sugar: 18.4 Oz
+Egg: 22.8 Oz
+Sifted Self-Rising Flour: 22.4 Oz
+Filling - Egg Yolk: 13.2 Oz
+Filling - Sugar: 13.2 Oz
+Filling - Butter: 13.2 Oz
+Filling - Lemon Zest: 12.8 Oz
+--------------------------------------------------
+
+Ingredient Quantities for Regular Chocolate Cake
+Flour: 10.1 Oz
+Sugar: 15.7 Oz
+Unsweetened Cocoa Powder: 3.6 Oz
+Baking Powder: 0.3 Oz
+Baking Soda: 0.4 Oz
+Salt: 0.3 Oz
+Egg: 5.8 Oz
+Buttermilk: 11.5 Oz
+Oil: 5.2 Oz
+Vanilla Extract: 0.4 Oz
+Boiling Water: 10.9 Oz
+--------------------------------------------------
+
+Ingredient Quantities for Large Red Velvet Cake
+Flour: 25.1 Oz
+Sugar: 20.7 Oz
+Unsweetened Cocoa Powder: 2.7 Oz
+Baking Powder: 0.9 Oz
+Baking Soda: 0.7 Oz
+Salt: 0.4 Oz
+Egg: 9.9 Oz
+Buttermilk: 25.1 Oz
+Oil: 9.0 Oz
+Vanilla Extract: 0.4 Oz
+Boiling Water: 6.2 Oz
+Red Food Coloring: 9.4 Oz
+Distilled Vinegar: 0.4 Oz
+--------------------------------------------------
+
+Ingredient Quantities for Regular Lemon Cake
+Butter: 5.4 Oz
+Sugar: 10.5 Oz
+Egg: 13.1 Oz
+Sifted Self-Rising Flour: 12.8 Oz
+Filling - Egg Yolk: 7.6 Oz
+Filling - Sugar: 7.6 Oz
+Filling - Butter: 7.6 Oz
+Filling - Lemon Zest: 7.3 Oz
+--------------------------------------------------
+"""
