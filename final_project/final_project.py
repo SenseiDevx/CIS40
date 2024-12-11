@@ -31,7 +31,13 @@ def monty_hall_simulation(trials=10000):
 if __name__ == "__main__":
     monty_hall_simulation()
 
+
+
+
 """
+This is my essay to game Monty Hall.
+
+
 The Monty Hall Problem is a classic probability puzzle that can feel very counterintuitive at first glance, 
 but once you understand it, it becomes surprisingly simple. Let me guide you through the reasoning behind 
 why switching doors in this game increases your chances of winning.
